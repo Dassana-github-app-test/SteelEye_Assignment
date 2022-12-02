@@ -5,8 +5,6 @@ from database import SessionLocal
 import models
 import datetime as dt
 app = FastAPI()
-
-
 class TradeDetails(BaseModel):
     buySellIndicator:str
     price:float
